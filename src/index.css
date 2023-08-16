@@ -1,0 +1,108 @@
+*{
+  background-color: black;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+
+}
+hr{
+  color: whitesmoke;
+}
+
+.flexcolumn {
+  display: flex;
+
+}
+.navbar-container{
+  width: 15%;
+}
+h3{
+  font-size: 30px;
+}
+.nav-logo{
+  display: flex;
+  justify-content: center;
+  width: auto;
+  height: 150px;
+  font-size:100px;
+font-style: italic;
+  color: red;
+  text-shadow: 0 10px 3px aqua;
+}
+.cat-class{
+  margin: 10px;
+  height: 300px;
+ 
+}
+.gen-class{
+  margin: 10px;
+  height: 500px;
+}
+ul{
+  margin: 10px;
+  padding: 0px;
+  list-style: none;
+  
+}
+li{
+  display: flex;
+  justify-content: flex-start;
+  gap:20px;
+  margin: 20px;
+  font-size: 20px;
+}
+.star-icon{
+  size: 30px;
+}
+.flex-row{
+  width: 90%;
+  margin: 0px;
+}
+
+.body-container {
+  width:80%;
+  height: auto;
+}
+.HeaderContent{
+ display: flex;
+ background-color: grey;
+ height: 100px;
+justify-content: space-between;
+}
+.settings-icon{
+  height: 40px;
+  background-color: grey;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.search-container{
+  margin-top: 40px;
+  
+  background-color: grey;
+
+  
+}
+/* Styles for iPads */
+@media (max-width: 1024px) {
+  .header {
+    width: 90%; /* Adjust width for iPads */
+    margin: 10px;
+  }
+}
+
+/* Styles for mobile devices */
+@media (max-width: 768px) {
+  .flexcolumn {
+    flex-direction: column;
+    align-items: center; /* Center content on mobile */
+  }
+
+  .header {
+    width: 90%; /* Adjust width for mobile devices */
+    margin: 10px;
+  }
+
+  .body-container {
+    /* Adjust styles for mobile devices */
+  }
+}
